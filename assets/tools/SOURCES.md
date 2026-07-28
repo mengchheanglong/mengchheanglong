@@ -2,6 +2,8 @@
 
 The profile README uses these logos only to identify the linked tools. All trademarks and logos belong to their respective owners.
 
+The profile banner and its generative-world illustration are original assets created for this repository; no stock image or external artwork is used.
+
 | Tool | Logo asset source | README destination |
 |---|---|---|
 | Codex | [OpenAI Developers favicon](https://developers.openai.com/favicon.png) | [openai/codex](https://github.com/openai/codex) |
