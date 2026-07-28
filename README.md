@@ -24,7 +24,6 @@ My approach is simple: understand the fundamentals, experiment with new ideas, a
 ## Current Focus
 
 - **AI Agents** — Exploring how intelligent agents can reason, use tools, collaborate, and automate complex workflows.
-- **Generative Games & World Simulation** — Learning how AI can generate interactive worlds, simulations, and dynamic gameplay experiences.
 - **Startups & Product Building** — Studying how emerging technologies become practical products and sustainable businesses.
 
 ## Daily stack
