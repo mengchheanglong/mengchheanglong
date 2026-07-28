@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Hi, I'm Mengchheang Long — Software Engineering, AI, Startups, and Immersive Digital Worlds" width="100%" />
+  <img src="assets/profile-banner.svg?v=2" alt="Hi, I'm Mengchheang Long — Software Engineering, AI, Startups, and Immersive Digital Worlds" width="100%" />
 </p>
 
 <p align="center">
