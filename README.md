@@ -16,11 +16,9 @@ I'm exploring **AI agents, generative games, world simulation, and immersive dig
 <p>
   <a href="https://github.com/anthropics/claude-code"><img src="assets/tools/claude-code.png" alt="Claude Code" title="Claude Code" height="46" /></a>&nbsp;&nbsp;
   <a href="https://cursor.com"><img src="assets/tools/cursor.svg" alt="Cursor" title="Cursor" height="46" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/zed-industries/zed"><img src="assets/tools/zed.png" alt="Zed" title="Zed" height="46" /></a>&nbsp;&nbsp;
   <a href="https://github.com/anomalyco/opencode"><img src="assets/tools/opencode.svg" alt="OpenCode" title="OpenCode" height="46" /></a>&nbsp;&nbsp;
   <a href="https://github.com/openclaw/openclaw"><img src="assets/tools/openclaw.svg" alt="OpenClaw" title="OpenClaw" height="46" /></a>&nbsp;&nbsp;
   <a href="https://antigravity.google"><img src="assets/tools/antigravity.png" alt="Google Antigravity" title="Google Antigravity" height="46" /></a>&nbsp;&nbsp;
-  <a href="https://qoder.com"><img src="assets/tools/qoder.svg" alt="Qoder" title="Qoder" height="46" /></a>&nbsp;&nbsp;
   <a href="https://obsidian.md"><img src="assets/tools/obsidian.svg" alt="Obsidian" title="Obsidian" height="46" /></a>&nbsp;&nbsp;
   <a href="https://github.com/paperclipai/paperclip"><img src="assets/tools/paperclip.svg" alt="Paperclip" title="Paperclip" height="46" /></a>&nbsp;&nbsp;
   <a href="https://github.com/ollama/ollama"><img src="assets/tools/ollama.svg" alt="Ollama" title="Ollama" height="46" /></a>
