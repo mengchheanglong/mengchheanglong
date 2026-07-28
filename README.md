@@ -1,32 +1,32 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Mengchheang Long — Software Engineering, AI, startups, and immersive systems" width="100%" />
+  <img src="assets/profile-banner.svg" alt="Hi, I'm Mengchheang Long — Software Engineering, AI, Startups, and Immersive Digital Worlds" width="100%" />
 </p>
 
 <p align="center">
-  Exploring how intelligent systems can shape the tools, games, and digital worlds of the future.
-</p>
-
-<p align="center">
-  <code>AI agents</code>&nbsp;&nbsp;
-  <code>Generative games</code>&nbsp;&nbsp;
-  <code>World simulation</code>&nbsp;&nbsp;
-  <code>Immersive systems</code>&nbsp;&nbsp;
-  <code>Startups</code>
+  I'm passionate about exploring how intelligent systems can shape the future of software, games, and immersive digital experiences.
 </p>
 
 <br />
 
 ## About
 
-I'm exploring **AI agents, generative games, world simulation, and immersive digital worlds**. These are long-term interests I pursue through learning, experimentation, and building real projects.
+I'm interested in **AI agents, generative games, world simulation, and immersive digital worlds**. These are long-term interests that I explore through continuous learning, experimentation, and building projects.
 
-My approach is simple: understand the fundamentals, test ideas quickly, and keep building toward more ambitious systems.
+My approach is simple: understand the fundamentals, experiment with new ideas, and keep building toward increasingly ambitious systems.
 
-## Current direction
+## Current Focus
 
-- **Intelligent systems** — learning how agents can reason, use tools, coordinate, and improve workflows.
-- **Generative worlds** — exploring games and simulations that can create richer, more dynamic experiences.
-- **Technology ventures** — studying how emerging technology becomes useful products and sustainable startups.
+### AI Agents
+
+Exploring how intelligent agents can reason, use tools, collaborate, and automate complex workflows.
+
+### Generative Games & World Simulation
+
+Learning how AI can generate interactive worlds, simulations, and dynamic gameplay experiences.
+
+### Startups & Product Building
+
+Studying how emerging technologies become practical products and sustainable businesses.
 
 ## Daily stack
 

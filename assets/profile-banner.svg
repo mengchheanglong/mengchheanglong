@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Mengchheang Long</title>
-  <desc id="desc">Software Engineering, AI, startups, and immersive systems</desc>
+  <title id="title">Hi, I'm Mengchheang Long</title>
+  <desc id="desc">Software Engineering, AI, Startups, and Immersive Digital Worlds</desc>
 
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
@@ -38,10 +38,9 @@
     <circle cx="1010" cy="150" r="7" fill="#ffffff"/>
 
     <g font-family="Inter, Arial, Helvetica, sans-serif">
-      <text x="72" y="82" fill="#808080" font-size="13" font-weight="600" letter-spacing="2.8">HELLO, I'M</text>
+      <text x="72" y="82" fill="#808080" font-size="13" font-weight="600" letter-spacing="2.8">HI, I'M</text>
       <text x="68" y="156" fill="#ffffff" font-size="54" font-weight="600" letter-spacing="-1.8">MENGCHHEANG LONG</text>
-      <text x="72" y="205" fill="#a3a3a3" font-size="18" font-weight="400">Software Engineering student exploring intelligent systems</text>
-      <text x="72" y="240" fill="#858585" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="1.2">AI  ·  STARTUPS  ·  GENERATIVE WORLDS  ·  IMMERSIVE TECHNOLOGY</text>
+      <text x="72" y="208" fill="#a3a3a3" font-size="18" font-weight="400">Software Engineering  •  AI  •  Startups  •  Immersive Digital Worlds</text>
     </g>
   </g>
 </svg>
