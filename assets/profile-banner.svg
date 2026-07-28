@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Mengchheang Long</title>
+  <desc id="desc">Software Engineering, AI, startups, and immersive systems</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0a72ef" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0a72ef" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="300" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#surface)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle cx="1010" cy="150" r="230" fill="url(#glow)"/>
+
+    <g opacity="0.8" fill="none">
+      <circle cx="1010" cy="150" r="102" stroke="#ffffff" stroke-opacity="0.16"/>
+      <circle cx="1010" cy="150" r="68" stroke="#ffffff" stroke-opacity="0.12"/>
+      <circle cx="1010" cy="150" r="34" stroke="#ffffff" stroke-opacity="0.10"/>
+      <path d="M878 150h264M1010 18v264" stroke="#ffffff" stroke-opacity="0.08"/>
+      <path d="M938 78l144 144M1082 78L938 222" stroke="#ffffff" stroke-opacity="0.07"/>
+    </g>
+
+    <circle cx="1010" cy="48" r="5" fill="#0a72ef"/>
+    <circle cx="1078" cy="200" r="5" fill="#de1d8d"/>
+    <circle cx="942" cy="200" r="5" fill="#ff5b4f"/>
+    <circle cx="1010" cy="150" r="7" fill="#ffffff"/>
+
+    <g font-family="Inter, Arial, Helvetica, sans-serif">
+      <text x="72" y="82" fill="#808080" font-size="13" font-weight="600" letter-spacing="2.8">HELLO, I'M</text>
+      <text x="68" y="156" fill="#ffffff" font-size="54" font-weight="600" letter-spacing="-1.8">MENGCHHEANG LONG</text>
+      <text x="72" y="205" fill="#a3a3a3" font-size="18" font-weight="400">Software Engineering student exploring intelligent systems</text>
+      <text x="72" y="240" fill="#858585" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="1.2">AI  ·  STARTUPS  ·  GENERATIVE WORLDS  ·  IMMERSIVE TECHNOLOGY</text>
+    </g>
+  </g>
+</svg>
