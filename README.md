@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg?v=5" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
+  <img src="assets/profile-banner.svg?v=6" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -78,15 +78,12 @@ Backend Engineer focused on **high-concurrency architectures**, **polyglot datas
 
 ## AI
 
-I engineer and integrate AI capabilities into production applications and agentic workflows:
+I engineer and integrate AI capabilities into production applications, data pipelines, and agentic workflows:
 
-- **AI-Integrated Applications:**
-  - **[CollabAI Backend](https://github.com/mengchheanglong/collabai-backend)** — Real-time AI collaboration backend built with NestJS, CQRS, WebSockets, and OpenAI integration.
-  - **[AI-Workspace Backend](https://github.com/mengchheanglong/AI-Workspace-backend)** — Project workspace API integrating the Model Context Protocol (MCP) server standard and LLM tooling.
-  - **[Evalora Backend](https://github.com/mengchheanglong/evalora-backend)** — Assessment platform backend integrating automated AI template generation and dynamic AI interview workflows.
-- **Applied NLP & Agent Research:**
-  - **[Khmer Legal Retrieval](https://github.com/mengchheanglong/khmer-legal-retrieval)** — Evaluated deep learning retrievers (XLM-R, BiLSTM, PrahokBART) for citation-grounded Khmer legal RAG.
-  - **[Agent Workflow](https://github.com/mengchheanglong/agent-workflow)** — Framework for orchestrating deterministic, controlled AI agent task execution.
+- **Retrieval-Augmented Generation (RAG):** Designing and evaluating citation-grounded RAG architectures for legal jurisprudence and structured educational knowledge retrieval.
+- **AI Analytics & Intelligence:** Developing automated business analytics pipelines, operational intelligence, and LLM-driven data synthesis.
+- **Agent Control & Orchestration:** Building runtime guardrails, deterministic workflow engines, memory management, and directive steering for autonomous AI coding agents.
+- **Production AI Integrations:** Embedding LLM systems into application backends — including automated assessment template generation, interactive interview agents, real-time collaboration engines, and Model Context Protocol (MCP) server implementations.
 
 <p align="center">
   <a href="https://github.com/openai/codex"><img src="assets/tools/codex.png" alt="Codex" title="Codex" height="46" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -104,9 +101,9 @@ I engineer and integrate AI capabilities into production applications and agenti
 
 ## Startups
 
-- **[Rentify](https://rentify.mekhla.digital/)** `(CEO)` • [[GitHub](https://github.com/Thna17/Rentify)] — SaaS commerce platform and marketplace for Cambodian SMEs, providing merchant management, customizable storefronts, POS, and KHQR-ready checkout.
-- **[Coorad](https://www.coorad.com/)** `(Developer)` • [[GitHub](https://github.com/coorad-company)] — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for **[Angkoro](https://angkoro.com/)** to handle platform operations, merchant governance, and administrative oversight.
-- **[OpenFullDive](https://openfulldive.org/)** `(Solo R&D)` • [[GitHub](https://github.com/OpenFullDive)] — Personal research and development project exploring immersive digital worlds and interactive systems.
+- **[Rentify](https://rentify.mekhla.digital/)** `(CEO)` — SaaS commerce platform and marketplace for Cambodian SMEs, providing merchant management, customizable storefronts, POS, and KHQR-ready checkout.
+- **[Coorad](https://www.coorad.com/)** `(Developer)` — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for **[Angkoro](https://angkoro.com/)** to handle platform operations, merchant governance, and administrative oversight.
+- **[OpenFullDive](https://openfulldive.org/)** `(Solo R&D)` — Personal research and development project exploring immersive digital worlds and interactive systems.
 
 <br />
 
