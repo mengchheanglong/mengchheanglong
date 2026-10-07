@@ -1,58 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Hi, I'm Mengchheang Long</title>
-  <desc id="desc">Backend Engineer - Distributed Systems, High Concurrency, Polyglot Data, and AI Systems</desc>
+  <title id="title">Mengchheang Long — Backend Engineer</title>
+  <desc id="desc">Backend Engineer specializing in Distributed Systems, Polyglot Persistence, Caching &amp; AI Workflows</desc>
 
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07090e" />
-      <stop offset="50%" stop-color="#0b0f19" />
-      <stop offset="100%" stop-color="#090d14" />
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070c" />
+      <stop offset="50%" stop-color="#0a0d15" />
+      <stop offset="100%" stop-color="#080a11" />
     </linearGradient>
 
-    <radialGradient id="meshCyan" cx="85%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
-      <stop offset="60%" stop-color="#06b6d4" stop-opacity="0.02" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="meshIndigo" cx="80%" cy="75%" r="50%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.22" />
-      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.03" />
+    <!-- Ambient Glows -->
+    <radialGradient id="meshIndigo" cx="82%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.02" />
       <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="leftGlow" cx="15%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.08" />
+    <radialGradient id="meshCyan" cx="72%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.14" />
+      <stop offset="55%" stop-color="#06b6d4" stop-opacity="0.01" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="leftAmbient" cx="12%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.07" />
       <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
     </radialGradient>
 
-    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Typography Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="70%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#f8fafc" />
       <stop offset="100%" stop-color="#cbd5e1" />
     </linearGradient>
 
-    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="cyanIndigoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
       <stop offset="50%" stop-color="#818cf8" />
       <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <linearGradient id="netLine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.15" />
+    <!-- Circuit & Line Gradients -->
+    <linearGradient id="conduitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.1" />
     </linearGradient>
 
-    <!-- Subtle Dot Grid Pattern -->
-    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+    <!-- Precise Dot Matrix -->
+    <pattern id="matrix" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#ffffff" fill-opacity="0.035" />
+    </pattern>
+
+    <!-- Fine Hairline Grid -->
+    <pattern id="fineGrid" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M 66 0 L 0 0 0 66" fill="none" stroke="#ffffff" stroke-opacity="0.018" stroke-width="0.75" />
     </pattern>
 
     <!-- Glow Filters -->
     <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -60,161 +68,170 @@
     </filter>
 
     <filter id="coreGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <clipPath id="cardClip">
+    <clipPath id="bannerClip">
       <rect width="1200" height="300" rx="16" />
     </clipPath>
   </defs>
 
-  <!-- Container -->
-  <g clip-path="url(#cardClip)">
+  <g clip-path="url(#bannerClip)">
     <!-- Base Background -->
-    <rect width="1200" height="300" fill="url(#bgGradient)" />
-    <rect width="1200" height="300" fill="url(#dotGrid)" />
+    <rect width="1200" height="300" fill="url(#bg)" />
+    <rect width="1200" height="300" fill="url(#matrix)" />
+    <rect width="1200" height="300" fill="url(#fineGrid)" />
 
-    <!-- Ambient Lighting Meshes -->
-    <rect width="1200" height="300" fill="url(#leftGlow)" />
-    <circle cx="1000" cy="90" r="320" fill="url(#meshCyan)" />
-    <circle cx="950" cy="220" r="320" fill="url(#meshIndigo)" />
+    <!-- Ambient Radial Lighting -->
+    <rect width="1200" height="300" fill="url(#leftAmbient)" />
+    <circle cx="940" cy="150" r="320" fill="url(#meshIndigo)" />
+    <circle cx="980" cy="110" r="260" fill="url(#meshCyan)" />
 
-    <!-- Border stroke -->
-    <rect width="1200" height="300" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" rx="16" />
+    <!-- Sleek Frame Border -->
+    <rect width="1200" height="300" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.5" rx="16" />
 
     <!-- ==================== LEFT: TYPOGRAPHY & CHIPS ==================== -->
-    <g transform="translate(68, 0)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif">
+    <g transform="translate(74, 0)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif">
       
-      <!-- Top Pill: Role & Status -->
-      <g transform="translate(0, 42)">
-        <rect width="192" height="26" rx="13" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-opacity="0.7" stroke-width="1" />
-        <circle cx="14" cy="13" r="3.5" fill="#10b981" filter="url(#softGlow)" />
-        <text x="26" y="17" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="1.4">BACKEND ENGINEER</text>
+      <!-- Top Pill: Status & Domain -->
+      <g transform="translate(0, 46)">
+        <rect width="232" height="25" rx="12.5" fill="#0b101b" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
+        <circle cx="13" cy="12.5" r="3" fill="#10b981" filter="url(#softGlow)" />
+        <text x="24" y="16.5" fill="#38bdf8" font-size="10.5" font-weight="700" letter-spacing="1.5">BACKEND &amp; DISTRIBUTED SYSTEMS</text>
       </g>
 
-      <!-- Main Name -->
-      <text x="0" y="124" fill="url(#nameGradient)" font-size="48" font-weight="800" letter-spacing="-1.2">
+      <!-- Main Headline: Name -->
+      <text x="0" y="126" fill="url(#titleGrad)" font-size="46" font-weight="800" letter-spacing="-1.2">
         MENGCHHEANG LONG
       </text>
 
-      <!-- Subtitle Tagline -->
-      <text x="0" y="162" fill="#94a3b8" font-size="15.5" font-weight="500" letter-spacing="0.3">
-        Distributed Systems  •  Polyglot Persistence  •  AI Workflows
+      <!-- Subtitle Focus Statement -->
+      <text x="0" y="164" fill="#94a3b8" font-size="15" font-weight="400" letter-spacing="0.2">
+        Distributed Architectures  •  Polyglot Persistence  •  AI Integrations
       </text>
 
-      <!-- Bottom Feature Tags -->
-      <g transform="translate(0, 196)">
-        <!-- Tag 1: Microservices -->
+      <!-- Bottom Feature Tags (Minimalist, Unified Aesthetic) -->
+      <g transform="translate(0, 198)">
+        <!-- Tag 1 -->
         <g transform="translate(0, 0)">
-          <rect width="158" height="28" rx="7" fill="#131929" fill-opacity="0.85" stroke="#25324d" stroke-width="1" />
-          <circle cx="14" cy="14" r="3" fill="#6366f1" />
-          <text x="24" y="18" fill="#cbd5e1" font-size="11.5" font-weight="500">Microservices &amp; CQRS</text>
+          <rect width="144" height="26" rx="6" fill="#0d121f" fill-opacity="0.8" stroke="#1e293b" stroke-width="1" />
+          <circle cx="12" cy="13" r="2.5" fill="#38bdf8" />
+          <text x="22" y="17" fill="#cbd5e1" font-size="11" font-weight="500">Microservices &amp; CQRS</text>
         </g>
 
-        <!-- Tag 2: Caching & Rate Limits -->
-        <g transform="translate(168, 0)">
-          <rect width="170" height="28" rx="7" fill="#131929" fill-opacity="0.85" stroke="#25324d" stroke-width="1" />
-          <circle cx="14" cy="14" r="3" fill="#06b6d4" />
-          <text x="24" y="18" fill="#cbd5e1" font-size="11.5" font-weight="500">Caching &amp; Rate Limiting</text>
+        <!-- Tag 2 -->
+        <g transform="translate(152, 0)">
+          <rect width="156" height="26" rx="6" fill="#0d121f" fill-opacity="0.8" stroke="#1e293b" stroke-width="1" />
+          <circle cx="12" cy="13" r="2.5" fill="#818cf8" />
+          <text x="22" y="17" fill="#cbd5e1" font-size="11" font-weight="500">Caching &amp; Rate Limits</text>
         </g>
 
-        <!-- Tag 3: Polyglot Data -->
-        <g transform="translate(348, 0)">
-          <rect width="144" height="28" rx="7" fill="#131929" fill-opacity="0.85" stroke="#25324d" stroke-width="1" />
-          <circle cx="14" cy="14" r="3" fill="#10b981" />
-          <text x="24" y="18" fill="#cbd5e1" font-size="11.5" font-weight="500">Polyglot Databases</text>
+        <!-- Tag 3 -->
+        <g transform="translate(316, 0)">
+          <rect width="138" height="26" rx="6" fill="#0d121f" fill-opacity="0.8" stroke="#1e293b" stroke-width="1" />
+          <circle cx="12" cy="13" r="2.5" fill="#38bdf8" />
+          <text x="22" y="17" fill="#cbd5e1" font-size="11" font-weight="500">Polyglot Datastores</text>
         </g>
 
-        <!-- Tag 4: AI App Integration -->
-        <g transform="translate(502, 0)">
-          <rect width="148" height="28" rx="7" fill="#131929" fill-opacity="0.85" stroke="#25324d" stroke-width="1" />
-          <circle cx="14" cy="14" r="3" fill="#c084fc" />
-          <text x="24" y="18" fill="#cbd5e1" font-size="11.5" font-weight="500">AI App Integrations</text>
+        <!-- Tag 4 -->
+        <g transform="translate(462, 0)">
+          <rect width="144" height="26" rx="6" fill="#0d121f" fill-opacity="0.8" stroke="#1e293b" stroke-width="1" />
+          <circle cx="12" cy="13" r="2.5" fill="#a78bfa" />
+          <text x="22" y="17" fill="#cbd5e1" font-size="11" font-weight="500">AI App Integrations</text>
         </g>
       </g>
     </g>
 
-    <!-- ==================== RIGHT: DISTRIBUTED ARCHITECTURE GRAPH ==================== -->
-    <g transform="translate(980, 150)">
-      <!-- Outer Orbit Ring -->
-      <circle cx="0" cy="0" r="114" fill="none" stroke="#334155" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 6" />
-      <circle cx="0" cy="0" r="76" fill="none" stroke="#6366f1" stroke-opacity="0.2" stroke-width="1.2" />
-
-      <!-- Interconnecting Circuit / Data Streams -->
-      <!-- Center to Orbit Nodes -->
-      <line x1="0" y1="0" x2="-68" y2="-62" stroke="url(#netLine)" stroke-width="1.5" />
-      <line x1="0" y1="0" x2="72" y2="-58" stroke="url(#netLine)" stroke-width="1.5" />
-      <line x1="0" y1="0" x2="98" y2="28" stroke="url(#netLine)" stroke-width="1.5" />
-      <line x1="0" y1="0" x2="34" y2="88" stroke="url(#netLine)" stroke-width="1.5" />
-      <line x1="0" y1="0" x2="-62" y2="78" stroke="url(#netLine)" stroke-width="1.5" />
-      <line x1="0" y1="0" x2="-102" y2="6" stroke="url(#netLine)" stroke-width="1.5" />
-
-      <!-- Peripheral Interconnections (Service Mesh) -->
-      <path d="M-68 -62 L72 -58 L98 28 L34 88 L-62 78 L-102 6 Z" fill="#0f172a" fill-opacity="0.25" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1" />
-
-      <!-- Animated / Pulsing Packets on Lines -->
-      <circle cx="-34" cy="-31" r="2.5" fill="#38bdf8" filter="url(#softGlow)" />
-      <circle cx="49" cy="14" r="2.5" fill="#06b6d4" filter="url(#softGlow)" />
-      <circle cx="-31" cy="39" r="2.5" fill="#818cf8" filter="url(#softGlow)" />
-      <circle cx="36" cy="-29" r="2" fill="#c084fc" filter="url(#softGlow)" />
-
-      <!-- Node 1: API / Gateway (Top Left) -->
-      <g transform="translate(-68, -62)">
-        <circle cx="0" cy="0" r="15" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
-        <circle cx="0" cy="0" r="5" fill="#38bdf8" filter="url(#softGlow)" />
-      </g>
-
-      <!-- Node 2: Relational DB (Top Right) -->
-      <g transform="translate(72, -58)">
-        <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#818cf8" stroke-width="1.5" />
-        <rect x="-4.5" y="-5.5" width="9" height="11" rx="2" fill="none" stroke="#818cf8" stroke-width="1.2" />
-      </g>
-
-      <!-- Node 3: Cache / Redis (Middle Right) -->
-      <g transform="translate(98, 28)">
-        <circle cx="0" cy="0" r="13" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
-        <circle cx="0" cy="0" r="4" fill="#f43f5e" filter="url(#softGlow)" />
-      </g>
-
-      <!-- Node 4: Stream / Queue (Bottom Right) -->
-      <g transform="translate(34, 88)">
-        <circle cx="0" cy="0" r="13" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" />
-        <circle cx="0" cy="0" r="4" fill="#06b6d4" />
-      </g>
-
-      <!-- Node 5: Analytics / Hive (Bottom Left) -->
-      <g transform="translate(-62, 78)">
-        <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#eab308" stroke-width="1.5" />
-        <circle cx="0" cy="0" r="4" fill="#eab308" />
-      </g>
-
-      <!-- Node 6: AI / Model (Middle Left) -->
-      <g transform="translate(-102, 6)">
-        <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#c084fc" stroke-width="1.5" />
-        <circle cx="0" cy="0" r="4.5" fill="#c084fc" filter="url(#softGlow)" />
-      </g>
-
-      <!-- CENTER HUB: Core Microservice Kernel -->
-      <circle cx="0" cy="0" r="28" fill="#0b1120" stroke="#6366f1" stroke-width="2" filter="url(#coreGlow)" />
-      <circle cx="0" cy="0" r="24" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1" />
+    <!-- ==================== RIGHT: SOPHISTICATED ARCHITECTURAL MESH ==================== -->
+    <g transform="translate(970, 150)">
       
-      <!-- Central Core Icon: Geometric Hex Core -->
-      <polygon points="0,-10 9,-5 9,5 0,10 -9,5 -9,-5" fill="none" stroke="url(#accentGradient)" stroke-width="1.8" />
-      <circle cx="0" cy="0" r="3.5" fill="#ffffff" filter="url(#softGlow)" />
+      <!-- Coordinate Compass & Radar Rings -->
+      <circle cx="0" cy="0" r="122" fill="none" stroke="#334155" stroke-opacity="0.2" stroke-width="0.75" stroke-dasharray="3 5" />
+      <circle cx="0" cy="0" r="88" fill="none" stroke="#6366f1" stroke-opacity="0.2" stroke-width="1" />
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 4" />
 
-      <!-- Latency / Health Indicator Badge -->
-      <g transform="translate(54, 76)">
-        <rect width="64" height="18" rx="9" fill="#020617" fill-opacity="0.9" stroke="#1e293b" stroke-width="1" />
-        <circle cx="9" cy="9" r="2.5" fill="#10b981" />
-        <text x="18" y="12.5" fill="#94a3b8" font-size="9" font-family="monospace" font-weight="600">HEALTHY</text>
+      <!-- Crosshairs -->
+      <line x1="-128" y1="0" x2="-96" y2="0" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
+      <line x1="96" y1="0" x2="128" y2="0" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
+      <line x1="0" y1="-128" x2="0" y2="-96" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
+      <line x1="0" y1="96" x2="0" y2="128" stroke="#334155" stroke-opacity="0.4" stroke-width="1" />
+
+      <!-- Primary Bus Network Conduits -->
+      <path d="M 0 -88 L 76 -44 L 76 44 L 0 88 L -76 44 L -76 -44 Z" fill="#0b101b" fill-opacity="0.45" stroke="#6366f1" stroke-opacity="0.35" stroke-width="1.2" />
+
+      <!-- Radial Backbone Traces -->
+      <line x1="0" y1="0" x2="0" y2="-88" stroke="url(#conduitGrad)" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="76" y2="-44" stroke="url(#conduitGrad)" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="76" y2="44" stroke="url(#conduitGrad)" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="0" y2="88" stroke="url(#conduitGrad)" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="-76" y2="44" stroke="url(#conduitGrad)" stroke-width="1.5" />
+      <line x1="0" y1="0" x2="-76" y2="-44" stroke="url(#conduitGrad)" stroke-width="1.5" />
+
+      <!-- Glowing Transit Packets along Data Streams -->
+      <circle cx="0" cy="-44" r="2.5" fill="#38bdf8" filter="url(#softGlow)" />
+      <circle cx="38" cy="-22" r="2.5" fill="#818cf8" filter="url(#softGlow)" />
+      <circle cx="52" cy="30" r="2" fill="#38bdf8" filter="url(#softGlow)" />
+      <circle cx="-38" cy="22" r="2.5" fill="#c084fc" filter="url(#softGlow)" />
+      <circle cx="-52" cy="-30" r="2" fill="#38bdf8" filter="url(#softGlow)" />
+
+      <!-- Perimeter Service Nodes (Unified High-End Palette) -->
+      <!-- Node: Gateway (Top) -->
+      <g transform="translate(0, -88)">
+        <circle cx="0" cy="0" r="14" fill="#080d1a" stroke="#38bdf8" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4.5" fill="#38bdf8" filter="url(#softGlow)" />
+      </g>
+
+      <!-- Node: Relational DB (Top Right) -->
+      <g transform="translate(76, -44)">
+        <circle cx="0" cy="0" r="13" fill="#080d1a" stroke="#818cf8" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4" fill="#818cf8" />
+      </g>
+
+      <!-- Node: Cache & Queues (Bottom Right) -->
+      <g transform="translate(76, 44)">
+        <circle cx="0" cy="0" r="13" fill="#080d1a" stroke="#38bdf8" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4" fill="#38bdf8" />
+      </g>
+
+      <!-- Node: Analytics & OLAP (Bottom) -->
+      <g transform="translate(0, 88)">
+        <circle cx="0" cy="0" r="13" fill="#080d1a" stroke="#818cf8" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4" fill="#818cf8" />
+      </g>
+
+      <!-- Node: NoSQL & Graph (Bottom Left) -->
+      <g transform="translate(-76, 44)">
+        <circle cx="0" cy="0" r="13" fill="#080d1a" stroke="#38bdf8" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4" fill="#38bdf8" />
+      </g>
+
+      <!-- Node: AI Inference (Top Left) -->
+      <g transform="translate(-76, -44)">
+        <circle cx="0" cy="0" r="13" fill="#080d1a" stroke="#a78bfa" stroke-width="1.5" />
+        <circle cx="0" cy="0" r="4" fill="#a78bfa" filter="url(#softGlow)" />
+      </g>
+
+      <!-- CENTRAL CORE: Distributed Engine Kernel -->
+      <circle cx="0" cy="0" r="26" fill="#080c17" stroke="#6366f1" stroke-width="2" filter="url(#coreGlow)" />
+      <circle cx="0" cy="0" r="22" fill="#0d1322" stroke="#38bdf8" stroke-opacity="0.8" stroke-width="1" />
+      
+      <!-- Center Isometric Diamond / Hex Core -->
+      <polygon points="0,-9 8,-4 8,4 0,9 -8,4 -8,-4" fill="none" stroke="url(#cyanIndigoGrad)" stroke-width="1.8" />
+      <circle cx="0" cy="0" r="3" fill="#ffffff" filter="url(#softGlow)" />
+
+      <!-- Minimalist Status Telemetry Tag -->
+      <g transform="translate(48, 82)">
+        <rect width="66" height="18" rx="4" fill="#070a12" fill-opacity="0.95" stroke="#1e293b" stroke-width="1" />
+        <circle cx="8" cy="9" r="2.5" fill="#10b981" />
+        <text x="16" y="12.5" fill="#94a3b8" font-size="8.5" font-family="-apple-system, BlinkMacSystemFont, monospace" font-weight="600" letter-spacing="0.5">HEALTHY</text>
       </g>
     </g>
 
-    <!-- Bottom Accent Line -->
-    <rect x="0" y="297" width="1200" height="3" fill="url(#accentGradient)" />
+    <!-- Bottom Accent Border -->
+    <rect x="0" y="297.5" width="1200" height="2.5" fill="url(#cyanIndigoGrad)" />
   </g>
 </svg>

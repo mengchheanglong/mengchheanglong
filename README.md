@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg?v=4" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
+  <img src="assets/profile-banner.svg?v=5" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -104,9 +104,9 @@ I engineer and integrate AI capabilities into production applications and agenti
 
 ## Startups
 
-- **[Rentify](https://github.com/Thna17/Rentify)** `(CEO)` — SaaS commerce platform and marketplace for Cambodian SMEs (merchant management, customizable storefronts, POS, and KHQR-ready checkout).
-- **[Coorad](https://github.com/coorad-company)** `(Developer)` — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for operations, merchant governance, and administrative oversight.
-- **[OpenFullDive](https://github.com/OpenFullDive)** `(Solo R&D)` — Personal research and development project exploring immersive digital worlds and interactive systems (unlaunched).
+- **[Rentify](https://rentify.mekhla.digital/)** `(CEO)` • [[GitHub](https://github.com/Thna17/Rentify)] — SaaS commerce platform and marketplace for Cambodian SMEs, providing merchant management, customizable storefronts, POS, and KHQR-ready checkout.
+- **[Coorad](https://www.coorad.com/)** `(Developer)` • [[GitHub](https://github.com/coorad-company)] — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for **[Angkoro](https://angkoro.com/)** to handle platform operations, merchant governance, and administrative oversight.
+- **[OpenFullDive](https://openfulldive.org/)** `(Solo R&D)` • [[GitHub](https://github.com/OpenFullDive)] — Personal research and development project exploring immersive digital worlds and interactive systems.
 
 <br />
 
