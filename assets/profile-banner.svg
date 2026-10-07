@@ -133,14 +133,14 @@
         <text y="72">
           <tspan fill="#475569">04</tspan>
           <tspan dx="12" fill="#818cf8">traffic_ctrl</tspan><tspan fill="#64748b">:</tspan>
-          <tspan dx="8" fill="#94a3b8">caching · rate-limit · outbox</tspan>
+          <tspan dx="8" fill="#94a3b8">caching · rate-limit · queues</tspan>
         </text>
 
         <!-- Line 5 -->
         <text y="96">
           <tspan fill="#475569">05</tspan>
-          <tspan dx="12" fill="#818cf8">ai_runtime</tspan><tspan fill="#64748b">:</tspan>
-          <tspan dx="8" fill="#94a3b8">rag · mcp-server · agent-control</tspan>
+          <tspan dx="12" fill="#818cf8">ai_stack</tspan><tspan fill="#64748b">:</tspan>
+          <tspan dx="8" fill="#94a3b8">rag · llm-integration · ai-agents</tspan>
         </text>
 
         <!-- Status Footer -->

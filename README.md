@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg?v=6" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
+  <img src="assets/profile-banner.svg?v=7" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -78,12 +78,12 @@ Backend Engineer focused on **high-concurrency architectures**, **polyglot datas
 
 ## AI
 
-I engineer and integrate AI capabilities into production applications, data pipelines, and agentic workflows:
+I build practical AI applications, retrieval pipelines, and autonomous agent workflows:
 
-- **Retrieval-Augmented Generation (RAG):** Designing and evaluating citation-grounded RAG architectures for legal jurisprudence and structured educational knowledge retrieval.
-- **AI Analytics & Intelligence:** Developing automated business analytics pipelines, operational intelligence, and LLM-driven data synthesis.
-- **Agent Control & Orchestration:** Building runtime guardrails, deterministic workflow engines, memory management, and directive steering for autonomous AI coding agents.
-- **Production AI Integrations:** Embedding LLM systems into application backends — including automated assessment template generation, interactive interview agents, real-time collaboration engines, and Model Context Protocol (MCP) server implementations.
+- **Retrieval-Augmented Generation (RAG):** Building semantic search and question-answering systems over large document collections (legal statutes and learning materials) using vector search and embeddings.
+- **AI Business Analytics:** Automated data analysis pipelines that turn business metrics into AI-generated insights, summaries, and executive reports.
+- **AI Agents & Automation:** Building reliable workflows, tool-calling capabilities, and guardrails for autonomous AI agents to execute complex developer tasks.
+- **Application Integration:** Embedding conversational assistants, smart content generation, and real-time collaborative AI features directly into production web backends.
 
 <p align="center">
   <a href="https://github.com/openai/codex"><img src="assets/tools/codex.png" alt="Codex" title="Codex" height="46" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
