@@ -22,7 +22,7 @@ I specialize in **Backend Systems, Microservices, and Distributed Architectures*
 - **Distributed Systems & Polyglot Architectures:** Architecting scalable NestJS microservices backed by specialized datastores — relational (PostgreSQL), document (MongoDB), high-throughput telemetry (Apache Cassandra), graph traversal (Neo4j), and analytical warehouses (Apache Hive).
 - **Domain-Driven Design (DDD) & CQRS:** Building clean enterprise backends using Command Query Responsibility Segregation (CQRS) and domain event-driven patterns.
 - **Message Queuing & Concurrency:** Designing asynchronous pipelines, worker pools, and broker integrations using Redis, RabbitMQ (`amqplib`), and BullMQ.
-- **Real-Time & Media Streaming:** Implementing stateful real-time communications with WebSockets (`socket.io`) and WebRTC audio/video sessions (`LiveKit`).
+- **Real-Time Communications & Chat:** Implementing event-driven real-time chat, state synchronization, and low-latency bidirectional messaging with WebSockets (`socket.io`).
 - **Data Integrity & Security:** Enforcing strict schema validation (Zod, Class-Validator), structured logging (Pino, Winston), robust authentication (Argon2, JWT, Supabase), and end-to-end API documentation (OpenAPI / Swagger).
 
 ---
@@ -44,7 +44,6 @@ I specialize in **Backend Systems, Microservices, and Distributed Architectures*
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/Architecture-CQRS_%26_DDD-6366F1?style=flat-square" alt="CQRS & DDD" />
   <img src="https://img.shields.io/badge/Protocol-WebSockets-0D9488?style=flat-square&logo=socket.io&logoColor=white" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Media-LiveKit_WebRTC-0070F3?style=flat-square" alt="LiveKit WebRTC" />
 </p>
 
 ### Databases & Polyglot Persistence
@@ -77,7 +76,15 @@ I specialize in **Backend Systems, Microservices, and Distributed Architectures*
 
 ## AI
 
-I work with agentic workflows, LLMs, and retrieval systems — including applied NLP research in legal RAG (`khmer-legal-retrieval`), Model Context Protocol (MCP) server integration, and controlled agent orchestration (`agent-workflow`).
+I engineer and integrate AI capabilities into production applications and agentic workflows:
+
+- **AI-Integrated Applications:**
+  - **[CollabAI Backend](https://github.com/mengchheanglong/collabai-backend)** — Real-time AI collaboration backend built with NestJS, CQRS, WebSockets, and OpenAI integration.
+  - **[AI-Workspace Backend](https://github.com/mengchheanglong/AI-Workspace-backend)** — Project workspace API integrating the Model Context Protocol (MCP) server standard and LLM tooling.
+  - **[Evalora Backend](https://github.com/mengchheanglong/evalora-backend)** — Assessment platform backend integrating automated AI template generation and dynamic AI interview workflows.
+- **Applied NLP & Agent Research:**
+  - **[Khmer Legal Retrieval](https://github.com/mengchheanglong/khmer-legal-retrieval)** — Evaluated deep learning retrievers (XLM-R, BiLSTM, PrahokBART) for citation-grounded Khmer legal RAG.
+  - **[Agent Workflow](https://github.com/mengchheanglong/agent-workflow)** — Framework for orchestrating deterministic, controlled AI agent task execution.
 
 <p align="center">
   <a href="https://github.com/openai/codex"><img src="assets/tools/codex.png" alt="Codex" title="Codex" height="46" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -95,9 +102,9 @@ I work with agentic workflows, LLMs, and retrieval systems — including applied
 
 ## Startups
 
-- **[Coorad](https://github.com/coorad-company)** — A startup company building digital platforms, modern software solutions, and production web systems.
-- **Angkoro Admin** ([Coorad](https://github.com/coorad-company)) — Contributed to **Angkoro** (Coorad's commerce product) by engineering the **internal admin portal** for operations, merchant access, and administrative workflows.
-- **[OpenFullDive](https://github.com/OpenFullDive)** — Personal R&D project exploring immersive digital worlds (unlaunched).
+- **[Rentify](https://github.com/Thna17/Rentify)** `(CEO)` — SaaS commerce and business platform for Cambodian SMEs, providing merchant management, customizable storefronts, POS, and KHQR-ready checkout.
+- **[Coorad](https://github.com/coorad-company)** `(Developer)` — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for operations, merchant governance, and administrative oversight.
+- **[OpenFullDive](https://github.com/OpenFullDive)** `(Solo R&D)` — Personal research and development project exploring immersive digital worlds and interactive systems (unlaunched).
 
 <br />
 
