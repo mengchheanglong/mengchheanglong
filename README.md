@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg?v=3" alt="Hi, I'm Mengchheang Long — Backend Engineering, Distributed Systems, Startups" width="100%" />
+  <img src="assets/profile-banner.svg?v=4" alt="Hi, I'm Mengchheang Long — Backend Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -17,13 +17,14 @@
 
 ## Backend
 
-I specialize in **Backend Systems, Microservices, and Distributed Architectures**. My engineering focus is centered on designing resilient backends that handle high-concurrency workloads, polyglot data persistence, real-time communications, and secure system integrations.
+Backend Engineer focused on **high-concurrency architectures**, **polyglot datastores**, and **production reliability**.
 
-- **Distributed Systems & Polyglot Architectures:** Architecting scalable NestJS microservices backed by specialized datastores — relational (PostgreSQL), document (MongoDB), high-throughput telemetry (Apache Cassandra), graph traversal (Neo4j), and analytical warehouses (Apache Hive).
-- **Domain-Driven Design (DDD) & CQRS:** Building clean enterprise backends using Command Query Responsibility Segregation (CQRS) and domain event-driven patterns.
-- **Message Queuing & Concurrency:** Designing asynchronous pipelines, worker pools, and broker integrations using Redis, RabbitMQ (`amqplib`), and BullMQ.
-- **Real-Time Communications & Chat:** Implementing event-driven real-time chat, state synchronization, and low-latency bidirectional messaging with WebSockets (`socket.io`).
-- **Data Integrity & Security:** Enforcing strict schema validation (Zod, Class-Validator), structured logging (Pino, Winston), robust authentication (Argon2, JWT, Supabase), and end-to-end API documentation (OpenAPI / Swagger).
+- **Microservices & DDD:** Modular NestJS services engineered with CQRS and domain event patterns.
+- **Polyglot Datastores:** PostgreSQL, MongoDB, Cassandra (telemetry), Neo4j (social graph), Hive (OLAP).
+- **Caching & Rate Limiting:** Low-latency Redis caching, cluster-wide rate limiting, and IP-level lockouts.
+- **Queues & Concurrency:** Asynchronous background job processing and pipelines via RabbitMQ, BullMQ, and Redis.
+- **Real-Time Communications:** Event-driven real-time chat and state synchronization via WebSockets (`socket.io`).
+- **APIs & Security:** OpenAPI/Swagger documentation, strict Zod validation, structured logging, and token security.
 
 ---
 
@@ -44,6 +45,7 @@ I specialize in **Backend Systems, Microservices, and Distributed Architectures*
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/Architecture-CQRS_%26_DDD-6366F1?style=flat-square" alt="CQRS & DDD" />
   <img src="https://img.shields.io/badge/Protocol-WebSockets-0D9488?style=flat-square&logo=socket.io&logoColor=white" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/Traffic-Rate_Limiting_%26_Cache-F43F5E?style=flat-square&logo=redis&logoColor=white" alt="Rate Limiting & Cache" />
 </p>
 
 ### Databases & Polyglot Persistence
@@ -102,7 +104,7 @@ I engineer and integrate AI capabilities into production applications and agenti
 
 ## Startups
 
-- **[Rentify](https://github.com/Thna17/Rentify)** `(CEO)` — SaaS commerce and business platform for Cambodian SMEs, providing merchant management, customizable storefronts, POS, and KHQR-ready checkout.
+- **[Rentify](https://github.com/Thna17/Rentify)** `(CEO)` — SaaS commerce platform and marketplace for Cambodian SMEs (merchant management, customizable storefronts, POS, and KHQR-ready checkout).
 - **[Coorad](https://github.com/coorad-company)** `(Developer)` — Technology startup building digital platforms; engineered the internal **Angkoro Admin** portal for operations, merchant governance, and administrative oversight.
 - **[OpenFullDive](https://github.com/OpenFullDive)** `(Solo R&D)` — Personal research and development project exploring immersive digital worlds and interactive systems (unlaunched).
 
